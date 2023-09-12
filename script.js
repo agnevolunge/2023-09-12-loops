@@ -59,14 +59,64 @@ for (kintamasis; salyga; kintamojo keitimas) {
 // 5. Pakelia skaičių kvadratu.
 // 6. Pakelia skaičių kūbu.
 
-function task1(){
-    for (let i = 1; i <= 100; i++)
-    console.log(i)
-}
-task1()
+// function task1(){
+//     for (let i = 1; i <= 100; i++)
+//     console.log(i)
+// }
+// task1()
+
+// function multiply2 (){
+//     for (let i = 1; i <= 100; i++) {
+//     let output = i * 2
+//     console.log(output)
+//     }
+// }
+// multiply2()
+
+// function multiply5 (){
+//     for (let i = 1; i <= 100; i++) {
+//     let output = i * 5
+//     console.log(output)
+//     }
+// }
+// multiply5()
+
+// function sudetis (number){
+//     for (let i = 1; i <= 100; i++) {
+//         let output = i + number
+//         console.log(output)
+//     }
+// }
+// sudetis(5)
+
+// function atimtis (number) {
+//     for (let i = 1; i <= 100; i++) {
+//         let output = i - number
+//         console.log(output)
+//     }
+// }
+// atimtis(2)
+
+// function kvadratu () {
+//     for (let i = 1; i <= 100; i++) {
+//         let output = i * i
+//         console.log(output)
+//     }
+// }
+// kvadratu()
+
+// function kubu () {
+//     for (let i = 1; i <= 100; i++) {
+//         let output = i * i * i
+//         console.log(output)
+//     }
+// }
+// kubu()
+
+// 7. Sukurti analogiškas funkcijas pirmoms užduotims, tačiau padaryti, jog ciklai skaičiuotųsi nuo 100 iki 1.
 
 function multiply2 (){
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 100; i >= 1; i--) {
     let output = i * 2
     console.log(output)
     }
@@ -74,7 +124,7 @@ function multiply2 (){
 multiply2()
 
 function multiply5 (){
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 100; i >= 1; i--) {
     let output = i * 5
     console.log(output)
     }
@@ -82,7 +132,7 @@ function multiply5 (){
 multiply5()
 
 function sudetis (number){
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 100; i >= 1; i--) {
         let output = i + number
         console.log(output)
     }
@@ -90,7 +140,7 @@ function sudetis (number){
 sudetis(5)
 
 function atimtis (number) {
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 100; i >= 1; i--) {
         let output = i - number
         console.log(output)
     }
@@ -98,7 +148,7 @@ function atimtis (number) {
 atimtis(2)
 
 function kvadratu () {
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 100; i >= 1; i--) {
         let output = i * i
         console.log(output)
     }
@@ -106,9 +156,23 @@ function kvadratu () {
 kvadratu()
 
 function kubu () {
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 100; i >= 1; i--) {
         let output = i * i * i
         console.log(output)
     }
 }
 kubu()
+
+// 8. Kiekvienos užduoties išvesties tekstą suformuluoti, jog būtų parašytas užduoties sprendimas, pvz.: 
+// 1 * 2 = 2
+// 2 * 2 = 4
+// 3 * 2 = 6
+// ir t.t.
+
+// 9. Papildyti funkcijas, jog jos priimtu šiuos argumentus:
+
+// 9.1. Nusakytų nuo kokio skaičiaus prasidės ciklas.
+
+// 9.2. Nusakytų iki kokio skaičiaus veiks ciklas.
+
+// 9.3. Nusakytų kelinto ciklo metu turi išvesti atsakymą į konsolę.
