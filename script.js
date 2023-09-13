@@ -1,23 +1,51 @@
 //CIKLAI
 
-// function count () {}
+// console.log('- ' + 1)
+// console.log('- ' + 2)
+// console.log('- ' + 3)
+// console.log('- ' + 4)
+// console.log('- ' + 5)
+// console.log('- ' + 6)
+// console.log('- ' + 7)
+// console.log('- ' + 8)
+// console.log('- ' + 9)
+// console.log('- ' + 10)
+// console.log('- ' + 11)
+// console.log('- ' + 12)
+// console.log('- ' + 13)
+// console.log('- ' + 14)
+// console.log('- ' + 15)
+// console.log('- ' + 16)
+// console.log('- ' + 17)
+// console.log('- ' + 18)
+// console.log('- ' + 19)
+// console.log('- ' + 20)
 
-// console.log(1)
-// console.log(2)
-// console.log(3)
-// console.log(4)
-// console.log(5)
-// console.log(6)
-// console.log(7)
-// console.log(8)
-// console.log(9)
-// console.log(10)
-// console.log(11)
-// console.log(12)
-// console.log(13)
-// console.log(14)
-// console.log(15)
-
+function count(num) {
+    console.log('- ' + num + ' !!!')
+  }
+  
+  // count(1)
+  // count(2)
+  // count(3)
+  // count(4)
+  // count(5)
+  // count(6)
+  // count(7)
+  // count(8)
+  // count(9)
+  // count(10)
+  // count(11)
+  // count(12)
+  // count(13)
+  // count(14)
+  // count(15)
+  // count(16)
+  // count(17)
+  // count(18)
+  // count(19)
+  // count(20)
+  
 
 //FOR CIKLAS (LOOP)
 //1. Iniciavimo žodelis - cikle yra 'for'
@@ -29,7 +57,6 @@
 
 //3. Riestiniai skliaustai - {}
 
-
 /* 
 
 for (kintamasis; salyga; kintamojo keitimas) {
@@ -38,15 +65,17 @@ for (kintamasis; salyga; kintamojo keitimas) {
 
 */
 
-
-// for (let i = 1; i <= 15; i++) {
+// for (let i = 1; i <= 20; i++) {
 //     console.log(i)
 // }
 
-// for (let i = 1; i <= 15; i++) {
+// for (let i = 1; i <= 20; i++) {
 //     console.log(i)
 // }
 
+// for (let i = 1; i <= 20; i++) {
+//   count(i)
+// }
 
 // TASK No 1
 // Sukurti funkcijas, kurios paleidžia ciklą su skaičiais nuo 1 iki 100. Šie ciklai:
@@ -63,13 +92,13 @@ for (kintamasis; salyga; kintamojo keitimas) {
 // }
 // task1()
 
-function multiply2 (){
-    for (let i = 1; i <= 100; i++) {
+function multiply2 (start = 1, end = 100, nth = 1){
+    for (let i = start; i <= end; i += nth) {
     let output = i * 2
     console.log(output)
     }
 }
-// multiply2()
+multiply2(35, 140, 5)
 
 function multiply5 (){
     for (let i = 1; i <= 100; i++) {
@@ -105,7 +134,9 @@ function kvadratu () {
 
 function kubu () {
     for (let i = 1; i <= 100; i++) {
-        let output = i * i * i
+        // let output = i * i * i
+        // let output = Math.pow(i, 3)
+        let output = i**3 // **3 reiskia - pakelta treciuoju laipsniu
         console.log(output)
     }
 }
@@ -153,12 +184,12 @@ function kvadratu () {
 }
 // kvadratu()
 
-function kubu () {
-    for (let i = 100; i >= 1; i--) {
-        let output = i * i * i
-        console.log(output)
-    }
-}
+// function kubu () {
+//     for (let i = 100; i >= 1; i--) {
+//         let output = i * i * i
+//         console.log(output)
+//     }
+// }
 // kubu()
 
 // 8. Kiekvienos užduoties išvesties tekstą suformuluoti, jog būtų parašytas užduoties sprendimas, pvz.: 
